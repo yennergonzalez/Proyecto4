@@ -140,6 +140,8 @@ Formas de onda de la señal modulada, la señal modulada con ruido y la señal d
 Comparación de la imagen transmitida y recuperada 
 ![ScreenShot](https://raw.githubusercontent.com/yennergonzalez/Proyecto4/main/Imagen_Enviada_y_Recuperada_16QAM.png)
 
+47004 errores, para un BER de 0.1111.
+
 ## Parte 2 - Estacionaridad y ergodicidad
  
 Para esta parte se debía analizar la señal modulada 'senal_Tx' y  realizar un análisis de ergodicidad y estacionaridad. 
@@ -221,4 +223,5 @@ Esta se obtuvo mediante la ejecución del siguiente código:
     plt.ylabel("Amplitud")
     plt.show()
 Para este se obtuvo como resultado la siguiente gráfica:
+
 ![ScreenShot](https://raw.githubusercontent.com/yennergonzalez/Proyecto4/main/Densidad_Espectral_de_Potencia_16QAM.png)
