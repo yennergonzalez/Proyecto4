@@ -134,9 +134,11 @@ de la transmisión con modulación 16-QAM:
         return bits_Rx.astype(int), senal_demodulada
 
 Para la simulación realizada se obtuvieron los siguientes resultados:
+Formas de onda de la señal modulada, la señal modulada con ruido y la señal demodulada, respectivamente:
+![ScreenShot](https://raw.githubusercontent.com/yennergonzalez/Proyecto4/main/Formas_de_Onda_16QAM.png)
 
-- Fig1
-- Fig2
+Comparación de la imagen transmitida y recuperada 
+![ScreenShot](https://raw.githubusercontent.com/yennergonzalez/Proyecto4/main/Imagen_Enviada_y_Recuperada_16QAM.png)
 
 ## Parte 2 - Estacionaridad y ergodicidad
  
@@ -219,3 +221,4 @@ Esta se obtuvo mediante la ejecución del siguiente código:
     plt.ylabel("Amplitud")
     plt.show()
 Para este se obtuvo como resultado la siguiente gráfica:
+![ScreenShot](https://raw.githubusercontent.com/yennergonzalez/Proyecto4/main/Densidad_Espectral_de_Potencia_16QAM.png)
